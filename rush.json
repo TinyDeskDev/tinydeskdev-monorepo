@@ -424,6 +424,11 @@
        */
       // "versionPolicyName": ""
     },
+
+    {
+      "packageName": "ubb-svelte",
+      "projectFolder": "apps/ubb-svelte"
+    },
     
     {
       "packageName": "my-controls",
