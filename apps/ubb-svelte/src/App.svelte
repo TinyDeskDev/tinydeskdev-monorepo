@@ -1,5 +1,8 @@
 <script lang="ts">
-	let message:string = 'Learn Svelte with Typescript';
+	import { MyClass } from 'my-controls'
+	const myClass: MyClass = new MyClass()
+	myClass.doSomething()
+	let message:string = 'Learn Svelte with Typescript'
 </script>
 
 <style>
@@ -45,12 +48,10 @@
 		<p>
 			Edit <code>src/App.svelte</code> and save to reload.
 		</p>
-		<a
-			class="App-link"
-			href="https://svelte.dev"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
+		<a class="App-link"
+		 href="https://svelte.dev"
+		 target="_blank"
+		 rel="noopener noreferrer">
 			{message}
 		</a>
 	</header>

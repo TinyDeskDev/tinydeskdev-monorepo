@@ -6,7 +6,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "svelte": "^3.24.0"
+    "svelte": "^3.24.0",
+    // Internal made packages
+    "my-controls": "^1.0.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^1.8.4",

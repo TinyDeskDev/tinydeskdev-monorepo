@@ -108,4 +108,10 @@
       //other styling properties goes here ... 
     }
   ],
+  "favorites.sortOrder": "ASC",
+  "favorites.resources": [
+    "apps/my-app",
+    "apps/ubb-svelte",
+    "libraries/my-controls"
+  ],
 }
