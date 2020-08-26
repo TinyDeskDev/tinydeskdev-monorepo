@@ -427,7 +427,8 @@
 
     {
       "packageName": "ubb-svelte",
-      "projectFolder": "apps/ubb-svelte"
+      "projectFolder": "apps/ubb-svelte",
+      "reviewCategory": "production"
     },
     
     {
