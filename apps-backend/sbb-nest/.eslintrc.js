@@ -1,9 +1,10 @@
+// https://rushstack.io/pages/heft_tasks/eslint/
+require('@rushstack/eslint-config/patch/modern-module-resolution');
+
 module.exports = {
+  extends: [ "@rushstack/eslint-config" ],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: 'tsconfig.json',
-    sourceType: 'module',
-  },
+  parserOptions: { tsconfigRootDir: __dirname },
   plugins: ['@typescript-eslint/eslint-plugin'],
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
