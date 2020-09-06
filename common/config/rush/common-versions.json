@@ -24,6 +24,8 @@
      * instead of the latest version.
      */
     // "some-library": "1.2.3"
+    "@angular-devkit/core": "10.1.0",
+    "@angular-devkit/schematics": "10.1.0"
   },
 
   /**
@@ -38,7 +40,7 @@
    * After modifying this field, it's recommended to run "rush update --full" so that the package manager
    * will recalculate all version selections.
    */
-  // "implicitlyPreferredVersions": false,
+  "implicitlyPreferredVersions": false,
 
   /**
    * The "rush check" command can be used to enforce that every project in the repo must specify
