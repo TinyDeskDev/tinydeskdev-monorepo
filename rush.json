@@ -426,6 +426,18 @@
     },
 
     {
+      "packageName": "sbb-nest",
+      "projectFolder": "apps-backend/sbb-nest",
+      "reviewCategory": "production"
+    },
+
+    {
+      "packageName": "ubb-angular",
+      "projectFolder": "apps/ubb-angular",
+      "reviewCategory": "production"
+    },
+
+    {
       "packageName": "ubb-svelte",
       "projectFolder": "apps/ubb-svelte",
       "reviewCategory": "production"
